@@ -101,6 +101,20 @@
 }
 
 
+@media (max-width:768px) {
+
+    .contenedor{
+        grid-template-columns: 2fr;
+        grid-template-rows: 4fr;
+        grid-template-areas: 
+        "caja1 caja2"
+        "caja1 caja3"
+        "caja1 caja4"
+        "caja1 caja5"
+        
+    }
+}
+
 @media (max-width:480px){
     .contenedor{
         grid-template-columns: 1fr;
