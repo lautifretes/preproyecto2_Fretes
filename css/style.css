@@ -138,11 +138,6 @@ footer {
 
 }
 
-p {
-    color: white;
-    text-align: center;
-    align-items: center;
-}
 
 
 /* PRODUCTOS */
@@ -299,6 +294,32 @@ h3 {
     }
 }
 
+
+/* TIPS */
+.tips h2{
+    text-align: center;
+}
+
+.divTip {
+    display: flex;
+}
+.divTip {
+    align-items: center;
+    
+}
+
+.tips {
+    background-color: aqua;
+}
+
+.calabaza {
+    display: flex;
+    gap: 30px;
+}
+.orderList li{
+    
+
+}
 
 @media (max-width:768px) {
 
