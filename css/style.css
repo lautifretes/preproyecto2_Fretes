@@ -6,6 +6,7 @@
     font-family: 'Kanit', sans-serif;
 }
 
+/* INDEX */
 .contenedor{
     width: 100%;
     height: 100vh;
@@ -99,6 +100,34 @@
 .caja5:hover{
     transform: scale(1.1) translate(-10px)
 }
+
+/* PAGINA CONTACTO */
+
+.logoBs {
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: black 5px 5px;
+    border: red solid 2px
+}
+
+.form-text {
+    align-items: center;
+    text-align: center;
+
+}
+img {
+    width: 10%;
+}
+footer{
+    background-color: blueviolet;
+   
+}
+p {
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
 
 
 @media (max-width:768px) {
