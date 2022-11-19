@@ -326,6 +326,13 @@ h3 {
             "caja5"
     }
 
-  
+    header {
+        flex-direction: column;
+    }
+
+    .menu__item a {
+        background-color: rgba(0, 0, 0, 0.466);
+        color: white;
+    }
 
 }
