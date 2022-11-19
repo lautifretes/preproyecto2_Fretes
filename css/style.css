@@ -32,6 +32,10 @@
 .caja1 {
     grid-area: caja1;
 }
+.caja1:hover{
+    transform: scale(1.1) translate(-10px)
+}
+
 
 .caja2 {
     grid-area: caja2;
@@ -43,6 +47,10 @@
     color: white;
     font-size: 40px;
 }
+.caja2:hover{
+    transform: scale(1.1) translate(-10px)
+}
+
 
 .caja3 {
     grid-area: caja3;
@@ -53,7 +61,9 @@
     background-color: rgba(0, 0, 0, 0.418);
     color: white;
     font-size: 40px;
-
+}
+.caja3:hover{
+    transform: scale(1.1) translate(-10px)
 }
 
 .caja4 {
@@ -67,6 +77,10 @@
     color: white;
     font-size: 40px;
 }
+.caja4:hover{
+    transform: scale(1.1) translate(-10px)
+}
+
 
 .caja5 {
     grid-area: caja5;
@@ -77,6 +91,10 @@
     color: white;
     font-size: 40px;
 }
+.caja5:hover{
+    transform: scale(1.1) translate(-10px)
+}
+
 
 @media (max-width:480px){
     .contenedor{
@@ -89,5 +107,6 @@
         "caja4"
         "caja5"
     }
+   
     
 }
