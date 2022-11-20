@@ -316,10 +316,7 @@ h3 {
     display: flex;
     gap: 30px;
 }
-.orderList li{
-    
 
-}
 
 @media (max-width:768px) {
 
