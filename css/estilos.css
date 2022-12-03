@@ -77,11 +77,12 @@ header input, label {
   align-items: center;
 }
 
-.menu__item a {
+.menu__item {
   text-decoration: none;
   font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
-
 .menu__item:hover {
   transform: scale(1.1) translate(-10px);
   background-color: aqua;
@@ -91,6 +92,8 @@ header input, label {
 .menu__item.inicio a {
   -webkit-text-decoration: underline double;
           text-decoration: underline double;
+  color: white;
+  font-size: 25px;
 }
 
 footer {
@@ -144,13 +147,13 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.caja2:hover {
+  transform: scale(1.1) translate(-10px);
+}
 .caja2 a {
   background-color: rgba(0, 0, 0, 0.418);
   color: white;
-  font-size: 40px;
-}
-.caja2:hover {
-  transform: scale(1.1) translate(-10px);
+  font-size: 25px;
 }
 
 .caja3 {
@@ -160,13 +163,13 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.caja3 :hover {
+  transform: scale(1.1) translate(-10px);
+}
 .caja3 a {
   background-color: rgba(0, 0, 0, 0.418);
   color: white;
-  font-size: 40px;
-}
-.caja3:hover {
-  transform: scale(1.1) translate(-10px);
+  font-size: 25px;
 }
 
 .caja4 {
@@ -176,13 +179,13 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.caja4:hover {
+  transform: scale(1.1) translate(-10px);
+}
 .caja4 a {
   background-color: rgba(0, 0, 0, 0.418);
   color: white;
-  font-size: 40px;
-}
-.caja4:hover {
-  transform: scale(1.1) translate(-10px);
+  font-size: 25px;
 }
 
 .caja5 {
@@ -192,13 +195,13 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.caja5:hover {
+  transform: scale(1.1) translate(-10px);
+}
 .caja5 a {
   background-color: rgba(0, 0, 0, 0.418);
   color: white;
-  font-size: 40px;
-}
-.caja5:hover {
-  transform: scale(1.1) translate(-10px);
+  font-size: 25px;
 }
 
 /* PRODUCTOS */
@@ -221,7 +224,7 @@ h2 {
   width: 200px;
   height: 200px;
   border: 4px solid black;
-  background-color: lightgrey;
+  background-color: white;
   margin: 15px;
 }
 
@@ -266,6 +269,13 @@ h2 {
 
 .orderLi .ol__li {
   font-size: 25px;
+}
+
+.logoBs {
+  width: 150px;
+  border-radius: 100px;
+  box-shadow: black 5px 5px;
+  border: red solid 2px;
 }
 
 @media (max-width: 768px) {
