@@ -6,121 +6,11 @@
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
 }
-
-/* INDEX */
-.contenedor {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50% 50%;
-    grid-template-areas:
-        "caja1 caja1  caja2  caja4"
-        "caja1 caja1  caja3  caja5";
-    column-gap: 20px;
-    row-gap: 20px;
-}
-
-.caja {
-    border: red solid 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.caja:hover {
-    transition: transform 0.5s;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-}
-
-.caja .logo1 {
-    width: 100%;
-    height: 100vh;
-}
-
-.caja1 {
-    grid-area: caja1;
-}
-
-.caja1:hover {
-    transform: scale(1.1) translate(-10px)
+body{
+    background-color: rgba(199, 93, 111, 0.616);
 }
 
 
-.caja2 {
-    grid-area: caja2;
-    background-image: url(../imagenes/campera2.jpg);
-
-}
-
-.caja2 a {
-    background-color: rgba(0, 0, 0, 0.418);
-    color: white;
-    font-size: 40px;
-}
-
-.caja2:hover {
-    transform: scale(1.1) translate(-10px)
-}
-
-
-.caja3 {
-    grid-area: caja3;
-    background-image: url(../imagenes/Sobre.png);
-    background-size: cover;
-}
-
-.caja3 a {
-    background-color: rgba(0, 0, 0, 0.418);
-    color: white;
-    font-size: 40px;
-}
-
-.caja3:hover {
-    transform: scale(1.1) translate(-10px)
-}
-
-.caja4 {
-    grid-area: caja4;
-    background-image: url(../imagenes/hayTabla.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.caja4 a {
-    background-color: rgba(0, 0, 0, 0.418);
-    color: white;
-    font-size: 40px;
-}
-
-.caja4:hover {
-    transform: scale(1.1) translate(-10px)
-}
-
-
-.caja5 {
-    grid-area: caja5;
-    background-image: url(../imagenes/matesss.jpg);
-}
-
-.caja5 a {
-    background-color: rgba(0, 0, 0, 0.418);
-    color: white;
-    font-size: 40px;
-}
-
-.caja5:hover {
-    transform: scale(1.1) translate(-10px)
-}
-
-/* PAGINA CONTACTO */
-
-.logoBs {
-    width: 100px;
-    border-radius: 50px;
-    box-shadow: black 5px 5px;
-    border: red solid 2px
-}
 
 .form-text {
     align-items: center;
@@ -128,172 +18,38 @@
 
 }
 
-img {
-    width: 10%;
-}
-
-footer {
-    background-color: blueviolet;
-    align-items: center;
-
-}
-
-
 
 /* PRODUCTOS */
-.logo {
-    width: 150px;
-    border-radius: 100px;
-    box-shadow: black 5px 5px;
-    border: red solid 2px
-}
-
-.logo:hover {
-    transform: scale(1.1) translate(-10px)
-}
-
-header {
-    background-image: url(../imagenes/mates.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    gap: 100px;
-}
-
-.menu {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-}
-.navBar{
-    display: flex;
-    align-items: center;
-}
-
-.menu__item a {
-    text-decoration: none;
-    font-size: 25px;
-
-}
-
-.menu__item:hover {
-    transform: scale(1.1) translate(-10px);
-    background-color: aqua;
-    color: red;
 
 
 
-}
 
-.menu__item.inicio a {
-    text-decoration: underline double;
-}
 
-hr {
-    margin-top: 10px;
-}
-
-.contenedor2 {
-    width: 100%;
-    height: 80vh;
-    border: red solid 2px;
+.contenedor2{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas:
-        "h2         h2"
-        "frida      cai"
-        "homero     perro"
-        "hp         luffy"
-        "h3         h3"
-        "macetaGoku macetaHomero";
-    column-gap: 20px;
-    row-gap: 20px;
+    grid-template-columns: repeat(3, auto);
+    width: 80%;
+    margin: 0 auto;
 }
 
-.producto {
-    border: red solid 2px;
+.contenedor3{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 80%;
+    margin: 0 auto;
 }
-
-h2 {
-    grid-area: h2;
+.producto{
+   width: 200px;
+   height: 200px;
+   border: 4px solid black;
+   background-color: lightgrey;
+   margin: 15px;
+   
 }
-
-.frida {
-    grid-area: frida;
-}
-
-.cai {
-    grid-area: cai;
-}
-
-.homero {
-    grid-area: homero;
-}
-
-.perro {
-    grid-area: perro;
-}
-
-.hp {
-    grid-area: hp;
-}
-
-.luffy {
-    grid-area: luffy;
-}
-
-h3 {
-    grid-area: h3;
-}
-
-.maceta2 {
-    grid-area: macetaHomero;
-}
-
-.maceta3 {
-    grid-area: macetaGoku;
-}
-
-.producto {
+.producto img{
     width: 100%;
+    height: 100%;
 }
-
-
-/* animista */
-.rotate-scale-up-hor {
-    -webkit-animation: rotate-scale-up-hor .65s linear both;
-    animation: rotate-scale-up-hor .65s linear both
-}
-@-webkit-keyframes rotate-scale-up-hor {
-    0% {
-        -webkit-transform: scale(1) rotateX(0);
-        transform: scale(1) rotateX(0)
-    }
-    50% {
-        -webkit-transform: scale(2) rotateX(-180deg);
-        transform: scale(2) rotateX(-180deg)
-    }
-    100% {
-        -webkit-transform: scale(1) rotateX(-360deg);
-        transform: scale(1) rotateX(-360deg)
-    }
-}
-@keyframes rotate-scale-up-hor {
-    0% {
-        -webkit-transform: scale(1) rotateX(0);
-        transform: scale(1) rotateX(0)
-    }
-    50% {
-        -webkit-transform: scale(2) rotateX(-180deg);
-        transform: scale(2) rotateX(-180deg)
-    }
-    100% {
-        -webkit-transform: scale(1) rotateX(-360deg);
-        transform: scale(1) rotateX(-360deg)
-    }
-}
-
 
 /* TIPS */
 .tips h2{
@@ -308,31 +64,14 @@ h3 {
     
 }
 
-.tips {
-    background-color: aqua;
-}
-
 .calabaza {
     display: flex;
     gap: 30px;
 }
 
 
-@media (max-width:768px) {
-
-    .contenedor {
-        grid-template-columns: 2fr;
-        grid-template-rows: 4fr;
-        grid-template-areas:
-            "caja1 caja2"
-            "caja1 caja3"
-            "caja1 caja4"
-            "caja1 caja5"
-
-    }
-}
-
 @media (max-width:480px) {
+    
     .contenedor {
         grid-template-columns: 1fr;
         grid-template-rows: 20% 20% 20% 20% 20%;
@@ -353,4 +92,78 @@ h3 {
         color: white;
     }
 
-}
+     /*  .navBar{
+        position: fixed;
+      } */
+      .menu{
+        display: none;
+      }
+      
+      input:checked  ~ ul{
+        display:flex;
+        align-items: center;
+       /*  text-align: end; */
+      }
+      
+      /* input {
+        display: none;
+      } */
+      
+      label {
+        
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid rgb(216, 29, 29);
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+      }
+      label:hover{
+        background: grey;
+      }
+      
+      /* Estilo del boton cuando el menú está expandido*/
+      input:checked ~ label {
+        background: lightgrey; 
+      }
+      
+      ul{
+        margin-top:0;
+        padding: 0;
+        width: 200px;
+      
+      }
+      
+      
+      li {
+        display: flex;
+        background: lightgrey;
+        margin: 0;
+        /* padding: 10px; */
+        list-style: none;
+        border-bottom: 1px solid grey;
+      }
+      .menu__item a {
+        font-size: 15px;
+      }
+      .contenedor2{
+          grid-template-columns: repeat(2, auto)
+      }
+      li:hover {
+        filter: brightness(110%);
+    }
+ 
+ }
+      
+      /*Estilo cuando el mouse pasa encima de cada link del menu*/
+      li:hover {
+        filter: brightness(110%);
+    }
+ 
+      
+
+

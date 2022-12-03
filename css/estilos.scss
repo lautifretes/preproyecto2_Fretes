@@ -1,0 +1,173 @@
+
+@import "./partials/variables";
+@import "./partials/reset";
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/mediaQueries";
+/* INDEX */
+.contenedor {
+    padding: 10PX;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "caja1 caja1  caja2  caja4"
+        "caja1 caja1  caja3  caja5";
+        .caja {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                transition: transform 1s;
+                box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+            }
+        }
+}
+
+.caja.caja1 {
+    grid-area: caja1;
+    background-image: url(../../imagenes/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    &:hover {
+        transform: scale(1.1) translate(-10px)
+    }
+}
+
+.caja2 {
+    grid-area: caja2;
+    background-image: url(../imagenes/campera2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & a{
+        background-color: rgba(0, 0, 0, 0.418);
+        color: white;
+        font-size: 40px;
+    }
+    &:hover {
+        transform: scale(1.1) translate(-10px)
+    }
+}
+
+.caja3 {
+    grid-area: caja3;
+    background-image: url(../imagenes/Sobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & a {
+        background-color: rgba(0, 0, 0, 0.418);
+        color: white;
+        font-size: 40px;
+    }
+
+    &:hover {
+            transform: scale(1.1) translate(-10px)
+        }
+    
+}
+
+.caja4 {
+    grid-area: caja4;
+    background-image: url(../imagenes/hayTabla.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & a {
+        background-color: rgba(0, 0, 0, 0.418);
+        color: white;
+        font-size: 40px;
+    }
+    &:hover {
+        transform: scale(1.1) translate(-10px)
+    }
+}
+
+.caja5 {
+    grid-area: caja5;
+    background-image: url(../imagenes/matesss.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & a {
+        background-color: rgba(0, 0, 0, 0.418);
+        color: white;
+        font-size: 40px;
+    }
+    &:hover {
+            transform: scale(1.1) translate(-10px)
+        }
+}
+
+
+/* PRODUCTOS */
+hr {
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.producto{
+   width: 200px;
+   height: 200px;
+   border: 4px solid black;
+   background-color: lightgrey;
+   margin: 15px;
+   
+}
+.producto img{
+    width: 100%;
+    height: 100%;
+}
+.contenedor3{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* NOTROS */
+
+.texto {
+    display: flex;
+    align-items: center;
+    .texto__desc{
+        font-size: 25px;
+    }
+}
+
+/**** TIPS ****/
+
+.tips h2{
+    text-align: center;
+}
+
+.divTip {
+    display: flex;
+}
+.divTip {
+    align-items: center;
+    
+}
+
+.tips {
+    background-color: aqua;
+}
+
+.calabaza {
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,113 @@
+@media (max-width:768px) {
+
+  .contenedor {
+      grid-template-columns: 2fr;
+      grid-template-rows: 4fr;
+      grid-template-areas:
+          "caja1 caja2"
+          "caja1 caja3"
+          "caja1 caja4"
+          "caja1 caja5";
+          row-gap: 10px;
+  }
+  
+}
+
+@media (max-width:480px) {
+    
+  .contenedor {
+      grid-template-columns: 1fr;
+      grid-template-rows: 20% 20% 20% 20% 20%;
+      grid-template-areas:
+          "caja1"
+          "caja2"
+          "caja3"
+          "caja4"
+          "caja5"
+  }
+
+  header {
+      flex-direction: column;
+  }
+
+  .menu__item a {
+      background-color: rgba(0, 0, 0, 0.466);
+      color: white;
+  }
+
+   /*  .navBar{
+      position: fixed;
+    } */
+    .menu{
+      display: none;
+    }
+    
+    input:checked  ~ ul{
+      display:flex;
+      align-items: center;
+     /*  text-align: end; */
+    }
+    
+    /* input {
+      display: none;
+    } */
+    
+    label {
+      
+      box-sizing: border-box;
+      display: inline-block;
+      border: 1px solid rgb(216, 29, 29);
+      border-radius: 5px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      text-align: center;
+      user-select: none;
+    }
+    label:hover{
+      background: grey;
+    }
+    
+    /* Estilo del boton cuando el menú está expandido*/
+    input:checked ~ label {
+      background: lightgrey; 
+    }
+    
+    ul{
+      margin-top:0;
+      padding: 0;
+      width: 200px;
+    
+    }
+    
+    
+    li {
+      display: flex;
+      background: lightgrey;
+      margin: 0;
+      /* padding: 10px; */
+      list-style: none;
+      border-bottom: 1px solid grey;
+    }
+    .menu__item a {
+      font-size: 15px;
+    }
+    li:hover {
+      filter: brightness(110%);
+    }
+    .contenedor2{
+        grid-template-columns: repeat(2, auto)
+    }
+   
+    .texto{
+      flex-direction: column;
+    }
+}
+    
+    /*Estilo cuando el mouse pasa encima de cada link del menu*/
+    li:hover {
+      filter: brightness(110%);
+  }
+
+    

@@ -1,0 +1,12 @@
+footer {
+    background-color: blueviolet;
+    align-items: center;
+    img {
+        width: 10%;
+    }
+    & p{
+        text-align: center;
+        color: white;
+    }
+
+}
