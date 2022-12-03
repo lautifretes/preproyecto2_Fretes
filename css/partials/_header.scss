@@ -65,18 +65,21 @@ header input, label{
 }
 
 
-.menu__item a {
+.menu__item {
     text-decoration: none;
     font-size: 25px;
-}
-
-.menu__item:hover {
-    transform: scale(1.1) translate(-10px);
-    background-color: aqua;
-    color: red;
-}
-
+    color: $mainColor;
+    font-size: $mainTamno;
+        &:hover {
+            transform: scale(1.1) translate(-10px);
+            background-color: aqua;
+            color: red;
+        }
+    }
 
 .menu__item.inicio a {
     text-decoration: underline double;
+    color: $mainColor;
+    font-size: $mainTamno;
+    
 }
