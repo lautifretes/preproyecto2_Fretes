@@ -89,6 +89,11 @@ header input, label {
   color: red;
 }
 
+.menu__item a {
+  color: white;
+  font-size: 25px;
+}
+
 .menu__item.inicio a {
   -webkit-text-decoration: underline double;
           text-decoration: underline double;

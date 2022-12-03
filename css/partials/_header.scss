@@ -76,6 +76,10 @@ header input, label{
             color: red;
         }
     }
+.menu__item a{
+    color: $mainColor;
+    font-size: $mainTamno ;
+}
 
 .menu__item.inicio a {
     text-decoration: underline double;
