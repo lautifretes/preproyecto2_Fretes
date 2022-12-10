@@ -92,18 +92,21 @@
     li:hover {
       filter: brightness(110%);
     }
-    .contenedor2{
-        grid-template-columns: repeat(2, auto)
+    .contenedor2, .contenedor3{
+        grid-template-columns: repeat(1, auto)
     }
    
     .texto{
       flex-direction: column;
     }
-    .divTip{
+    .divTip1{
       flex-direction: column;
     }
-    .calabaza {
+    .divTip2 {
       flex-direction: column;
+    }
+    .divTip1, .divTip2 img{
+      display: none;
     }
 }
    

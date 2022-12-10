@@ -113,6 +113,32 @@ footer p {
   color: white;
 }
 
+.divTip3 {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.divTip4 {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.divTip5 {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
 
 /* INDEX */
 .contenedor {
@@ -284,34 +310,6 @@ h2 {
   border: red solid 2px;
 }
 
-.divTip3 {
-  background-color: rgba(0, 0, 0, 0.473);
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.divTip4 {
-  background-color: rgba(0, 0, 0, 0.473);
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.divTip5 {
-  background-color: rgba(0, 0, 0, 0.473);
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-
 @media (max-width: 768px) {
   .contenedor {
     grid-template-columns: 2fr;
@@ -379,17 +377,20 @@ h2 {
   li:hover {
     filter: brightness(110%);
   }
-  .contenedor2 {
-    grid-template-columns: repeat(2, auto);
+  .contenedor2, .contenedor3 {
+    grid-template-columns: repeat(1, auto);
   }
   .texto {
     flex-direction: column;
   }
-  .divTip {
+  .divTip1 {
     flex-direction: column;
   }
-  .calabaza {
+  .divTip2 {
     flex-direction: column;
+  }
+  .divTip1, .divTip2 img {
+    display: none;
   }
 }
 li:hover {
