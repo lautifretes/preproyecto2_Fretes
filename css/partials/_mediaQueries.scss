@@ -99,8 +99,14 @@
     .texto{
       flex-direction: column;
     }
+    .divTip{
+      flex-direction: column;
+    }
+    .calabaza {
+      flex-direction: column;
+    }
 }
-    
+   
   
     li:hover {
       filter: brightness(110%);
