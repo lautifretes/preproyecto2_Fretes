@@ -3,6 +3,7 @@
 @import "./partials/reset";
 @import "./partials/header";
 @import "./partials/footer";
+@import "./partials/mixin";
 /* INDEX */
 .contenedor {
     padding: 10PX;
@@ -157,14 +158,14 @@ h2{
     text-align: center;
 }
 
-.divTip {
+.divTip1 {
     display: flex;
     align-items: center;
     & img {
         right: 100px;
     }
 }
-.calabaza {
+.divTip2 {
     display: flex;
     gap: 30px;
 }

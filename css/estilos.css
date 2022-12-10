@@ -113,6 +113,7 @@ footer p {
   color: white;
 }
 
+
 /* INDEX */
 .contenedor {
   padding: 10PX;
@@ -259,15 +260,15 @@ h2 {
   text-align: center;
 }
 
-.divTip {
+.divTip1 {
   display: flex;
   align-items: center;
 }
-.divTip img {
+.divTip1 img {
   right: 100px;
 }
 
-.calabaza {
+.divTip2 {
   display: flex;
   gap: 30px;
 }
@@ -282,6 +283,34 @@ h2 {
   box-shadow: black 5px 5px;
   border: red solid 2px;
 }
+
+.divTip3 {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.divTip4 {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.divTip5 {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
 
 @media (max-width: 768px) {
   .contenedor {
@@ -354,6 +383,12 @@ h2 {
     grid-template-columns: repeat(2, auto);
   }
   .texto {
+    flex-direction: column;
+  }
+  .divTip {
+    flex-direction: column;
+  }
+  .calabaza {
     flex-direction: column;
   }
 }
